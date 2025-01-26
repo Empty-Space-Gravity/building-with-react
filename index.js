@@ -7,7 +7,7 @@ new Promise = ((resolve ,reject)=>{
     }
     else
     {
-        reject
+        reject();
     }
 }).then(()=>{
     console.log("yes")
